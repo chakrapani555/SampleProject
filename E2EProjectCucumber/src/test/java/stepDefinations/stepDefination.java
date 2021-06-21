@@ -41,7 +41,7 @@ public class stepDefination extends base {
 	@Then("^Verify that user is succesfully logged in$")
 	public void verify_that_user_is_succesfully_logged_in() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-portalHomePage p=new portalHomePage(driver);
+		portalHomePage p=new portalHomePage(driver);
       Assert.assertTrue(p.getSearchBox().isDisplayed());
 	}
 	 @When("^User enters (.+) and (.+) and logs in$")
